@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: left;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        .login-container {
+            max-width: 300px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .login-button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        } 
+        @media screen and (max-width: 768px) {
+            img {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEDI-SITE</h1>
+    </header>
+
+    <main>
+        <section>
+            
+            <div class="login-container">
+                <center><h2>Login</h2></center>
+                <form action="login_process.php" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="remember-me">
+                        <label for="remember"><input type="checkbox" id="remember" name="remember"> Remember Me</label>
+                        <a href="forgot_password.php" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="login-button">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Women Health. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

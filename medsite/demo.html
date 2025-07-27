@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>WOOW</h1>
+        </section>
+        <p>
+            <form action="https://www.google.com/search?">
+            <!-- <p><label for="username">
+                    <input type="text" id="username" placeholder="enter username" name="name">
+                </label>
+            </p>
+            <p>
+                <label for="number">
+                    <input type="number" id="number" placeholder="enter number" name="num">
+                </label>
+            </p>
+            <p>
+                <label for="password">
+                    <input type="password" id="password" placeholder="enter password" name="">
+                </label>
+            </p>-->
+            <p>
+                <label for="search"> 
+                    <input type="text" id="search" placeholder="search here" name="q"><button>search</button>
+                </label>
+            </p>
+            <p>
+                <!-- not only for range we con done it with numbers -->
+                <label for="jeans">amount of jeans</label>
+                <input type="range" id="jeans" min="500" max="2000" value="750" step="50" name="q">
+            </p>
+            <p>
+                <label for="msg">any note</label><br>
+                    <textarea rows="5" cols="5" id="msg" placeholder="enter your note here"></textarea>
+            </p>
+            </form>
+    </p>
+    <br>
+    <h2>validations</h2>
+    <form action="/dummy">
+        <label for="name">
+            <input type="text" id="name" name="first" required>
+        </label>
+        <label for="username">
+            <input type="text" id="username" name="username" required minlength="5" maxlength="10" placeholder="username">
+
+        </label>
+        <button>submt
+        </button>
+        
+    </form>
+    <h2>Race Registration</h2>
+    <form>
+     <label for="fname">First Name
+        <input type="text" id="fname" required>
+     </label>
+     <label for="lname">Last Name
+     <input type="text"  id="lname" required>
+    </label><br>
+     <label for="race">Select Race:
+        <select id="race" name="race">
+            <option value="fun run 5k">Fun Run 5k</option>
+            <option value="half marathon">Half Marathon</option>
+            <option value="full marathon" selected>Full Marathon</option>
+        </select>
+    </label><br>
+     <label for="email">email
+        <input type="email" id="email" minlength="5" required>
+     </label><br>
+     <label for="password">password
+        <input type="password" id="password" minlength="4" maxlength="8" required>
+     </label><br>
+     <label for="age">select age  group
+        <select id="age">
+        <option value="age">under 18</option>
+        <option value="age">above 18</option>
+        <option value="age" selected>18</option>
+        </select>
+     </label><br>
+     <button>Register</button>
+
+    </form>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allopathic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: left;
+        }
+
+        section {
+            margin: 20px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Allopathic Wellness</h1>
+        <p>MEDI-SITE</p>
+    </header>
+
+    <main>
+        <section>
+            <img src="alo.jpg" alt="Allopathic Image">
+            <h2>Welcome to Allopathy</h2>
+            <p><ul>
+                <li>Allopathic medicine, or allopathy, is an archaic and derogatory label originally used 
+                    by 19th-century homeopaths to describe heroic medicine, the precursor of modern 
+                    evidence-based medicine.There are regional variations in usage of the term. 
+                    In the United States, the term is sometimes used to contrast with osteopathic medicine, 
+                    especially in the field of medical education. In India, the term is used to distinguish 
+                    conventional modern medicine from Siddha medicine, Ayurveda, homeopathy, Unani and other 
+                    alternative and traditional medicine traditions, especially when comparing treatments and 
+                    drugs.</li><br>
+                <li>A study released by the World Health Organization (WHO) in 2001 defined allopathic medicine 
+                    as "the broad category of medical practice that is sometimes called Western medicine, 
+                    biomedicine, evidence-based medicine, or modern medicine.The WHO used the term in a 
+                    global study in order to differentiate Western medicine from traditional and alternative 
+                    medicine, noting that in certain areas of the world "the legal standing of practitioners is
+                    equivalent to that of allopathic medicine" where practitioners can be separately certified in 
+                    complementary/alternative medicine and Western medicine.</li><br>
+                    <br><h2>History</h2><br>
+                <li>The practice of medicine in both Europe and North America during the early 19th century is 
+                    sometimes referred to as heroic medicine because of the extreme measures (such as bloodletting) 
+                    sometimes employed in an effort to treat diseases.The term allopath was used by Hahnemann and 
+                    other early homeopaths to highlight the difference they perceived between homeopathy and the 
+                    "conventional" heroic medicine of their time. With the term allopathy (meaning "other than the 
+                    disease"), Hahnemann intended to point out how physicians with conventional training employed 
+                    therapeutic approaches that, in his view, merely treated symptoms and failed to address the 
+                    disharmony produced by underlying disease.[clarification needed] Homeopaths saw such symptomatic 
+                    treatments as "opposites treating opposites" and believed these methods were harmful to patients.<br>
+
+                    Practitioners of alternative medicine have used the term "allopathic medicine" to refer to the 
+                    practice of conventional medicine in both Europe and the United States since the 19th century. 
+                    In that century, the term allopath was used most often as a derogatory name for the practitioners 
+                    of heroic medicine,a precursor to modern medicine that itself did not rely on evidence of 
+                    effectiveness.<br>
+                </li>
+            </ul>
+            <b><a href="sample.html">GO BACK</a></b>
+        </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Homopathic Wellness. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
